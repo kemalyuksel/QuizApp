@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body style="background-color: lightgoldenrodyellow">
+   
+<div class="container mt-3" id="main">
+    <div class="row">
+        <div class="col-8">
+            <div class="card">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="text-center" style="color:darkblue">Sordum Soruyu </h5>
+                    </div>
+                    <div class="card-body text-center" style="font-size : 30px">
+                        <h5 class="card-header" id="question">
+                        </h5>
+                        <hr>
+                        <div id="buttons" class="text-center">
+                            <button id="btn0" class="btn btn-primary">
+                                <span id="choice0">
+                                    CEVAP 
+                                </span>
+                            </button>
+                            
+                            <button id="btn1" class="btn btn-primary">
+                                <span id="choice1">
+                                    CEVAP 1
+                                </span>
+                            </button>
+                            
+                            <button id="btn2" class="btn btn-primary">
+                                <span id="choice2">
+                                    CEVAP 2
+                                </span>
+                            </button>
+                            
+                            <button id="btn3" class="btn btn-primary">
+                                <span id="choice3">
+                                    CEVAP 3
+                                </span>
+                            </button>
+                            
+                        </div>
+                    </div>
+                    <div id="progress" class="card-footer">
+                       <button style="height: 50px;width: 150px;margin-left: 260px" class="btn btn-success" id="refresh" onclick="window.location.reload(false)">Yeniden Oyna</button>
+                        <h5 id="isTrue" ></h5>
+                        <h5 id="True"></h5>
+                        <h6 id="time" class="text-center"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <div class="col-4 " id="image">
+        <img id="imgs" src=""
+        width="700" height="500" alt="">
+         </div>
+                        
+        
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
